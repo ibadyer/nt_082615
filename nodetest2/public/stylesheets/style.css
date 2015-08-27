@@ -1,0 +1,163 @@
+body {
+	margin:0;
+  padding: 30px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+	margin:0 0 .5em 0;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#wrapper {
+	padding-left:312px;
+	position:relative;
+}
+
+#userList {
+	margin:0 0 30px 0;
+}
+	#userList table {
+		border-collapse:separate;
+		border-spacing:1px;
+		background:#CCC;
+	}
+		#userList table th {
+			background:#EEE;
+			font-weight:600;
+			padding:10px 20px;
+			text-align:center;
+		}
+		#userList table tbody {
+			padding:0; margin:0;
+			border-collapse:collapse;
+			border-spacing:0px;
+		}
+			#userList table td {
+				background:#FFF;
+				padding:5px 10px;
+				text-align:center;
+			}
+
+#userInfo {
+	width:250px;
+	position:absolute;
+	top:0; left:0;
+}
+	#userInfo p {
+		padding:15px;
+		border:1px solid #CCC;
+		background:rgba(80,120,255,0.05);
+	}
+
+fieldset {
+	border:0;
+	padding:0; margin:0;
+}
+
+
+#ul {
+	width:100%;
+}
+.myhead{
+	background-color: gold;
+	width:100%;
+	height:30px;
+}
+nav {
+	background-color: #333;
+	margin:0;
+	overflow: hidden;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    /* This allow us to arrange list items in a row, without using float */
+    display: inline-block;
+    list-style-type: none;
+}
+
+/* Create a style for the first level items */
+nav > ul > li > a {
+    color: #aaa;
+    background-color:#FFF;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+}
+
+/* xx */
+nav li > ul li{
+    display: block;
+}
+
+nav  li > ul li a {
+    color: #111;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+
+/* Change the background color when mouse over items */
+nav li:hover {
+    background-color: #666;
+}
+/* display the submenu on mouse over main menu item*/
+nav li:hover > ul{
+    position:absolute;
+    display : block;
+}
+/*3rd*/
+nav li > ul > li ul  {
+    display: none;
+    background-color: #888;
+}
+nav li > ul > li:hover > ul  {
+    position:absolute;
+    display : block;
+    margin-left:100%;
+    margin-top:-3em;
+}
+
+.dl {
+	float:left;
+	width:50%;
+	height:100px;
+	background-image:  url("/images/flower.png") ;
+	background-size:contain;
+}
+.dli {
+	float:left;
+	width:50%;
+	 
+}
+.dr{
+	float:right;
+	width:50%;
+	height:100px;
+	background-image:  url("/images/buterfly.png") ;
+	background-size:contain;
+}
+.dri{
+	float:right;
+	width:50%;
+
+
+}
+.dc{
+	clear: both;
+}
+.bg {
+	width:50%;
+	position:relative;
+	top:0;
+	left:0;
+	z-index:5000;
+}

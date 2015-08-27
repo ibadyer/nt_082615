@@ -1,0 +1,20 @@
+db.userlist.insert({'username' : 'test3', 'email' : 'test2@test.com',
+ 'fullname' : 'Bob Jones','age' : 28,
+ 'location' : 'San Francisco','gender' : 'Male'})
+ db.userlist.insert({'username' : 'test4', 'email' : 'test2@test.com',
+ 'fullname' : 'Bob Jones','age' : 28,
+ 'location' : 'San Francisco','gender' : 'Male'})
+ db.userlist.insert({'username' : 'test5', 'email' : 'test2@test.com',
+ 'fullname' : 'Bob Jones','age' : 28,
+ 'location' : 'San Francisco','gender' : 'Male'})
+ db.userlist.insert({'username' : 'test6', 'email' : 'test2@test.com',
+ 'fullname' : 'Bob Jones','age' : 28,
+ 'location' : 'San Francisco','gender' : 'Male'})
+ db.userlist.insert({'username' : 'test7', 'email' : 'test2@test.com',
+ 'fullname' : 'Bob Jones','age' : 28,
+ 'location' : 'San Francisco','gender' : 'Male'})
+ db.userlist.insert({'username' : 'george', 'email' : 'george@test.com',
+ 'fullname' : 'GeorgeJones','age' : 28,
+ 'location' : 'San Diego','gender' : 'Male', 'note':''})
+
+  

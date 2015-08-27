@@ -1,0 +1,56 @@
+extends layout
+ 
+block content
+
+
+
+	#pics
+		div.dli
+		<img class="bg" src="images/flower.png"/>
+		div.dri
+		<img class="bg" src="images/buterfly.png"/>
+		div.dc
+
+	// wrapper
+	#wrapper
+		#userInfo
+			h3 User Info
+			p
+				strong Name:
+				| <span id='userInfoName'></span>
+				br
+				strong Age:
+				| <span id='userInfoAge'></span>
+				br
+				strong Location:
+				| <span id='userInfoLocation'></span>
+		// /USER INFO
+
+		// user list
+		h3 User List
+		#userList 
+			table(id='ul')
+				thead
+					th UserName
+					th Email
+					th Delete?
+				tbody
+		// /user list
+
+		// ADD USER
+		h3 Add User
+		#addUser
+			fieldset
+				input#inputUserName(type='text', placeholder='Username')
+				input#inputUserEmail(type='text', placeholder='Email')
+				br
+				input#inputUserFullname(type='text', placeholder='Full name')
+				input#inputUserAge(type='text', placeholder='Age')
+				br
+				input#inputUserLocation(type='text',placeholder='location')
+				input#inputUserGender(type='text',placeholder='Gender')
+				br
+				button#btnAddUser Add User
+		// /ADD USER
+	// /wrapper
+
